@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+.App {
+  margin: 0;
+  background-color: rgb(123, 180, 255);
+}
+
+main {
+  flex: 1 1 0%;
+  padding: 0px 16px;
+}
+
+.main-head {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.visually-hidden {
+  display: flex;
+  justify-content: center;
+}
+
+.search-box {
+  display: flex;
+  justify-content: flex-start;
+  flex: 1 1 0%;
+}
+
+input {
+  appearance: none;
+  background: none;
+  outline: none;
+  border: none;
+
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  padding: 16px;
+  border-radius: 999px;
+  background-color: #eee;
+
+  transition: 0.5s;
+}
+
+::placeholder {
+  color: #888;
+}
+
+:focus,
+:valid {
+  background-color: #313131;
+  color: #fff;
+}
+
+.anime-list {
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin-top: 32px;
+  margin: 10px -8px 0px;
+}
+.anime-card {
+  flex: 1 1 20%;
+  max-width: 20%;
+  padding: 16px 8px;
+}
+
+figure {
+  display: block;
+  margin-bottom: 16px;
+}
+img {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 3rem;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.15);
+
+  transition: 0.4s;
+}
+
+img:hover {
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
+  transform: scale(1.05);
+}
+/* ///////////////////////////// */
+nav {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  gap: 1rem;
+}
+.anime_title {
+  color: #313131;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.sidebar {
+  display: flex;
+  padding: 8px 16px;
+  text-align: left;
+
+  color: #888;
+  font-size: 16px;
+  margin-bottom: 16px;
+
+  background-color: #eee;
+  border-radius: 999px;
+  text-decoration: none;
+
+  transition: 0.4s;
+}
+.sidebar:hover {
+  background-color: #3a3a3a;
+  color: #aaa;
+}
+
+.sidebarimg {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.15);
+
+  transition: 0.4s;
+}
+
+.category_display {
+  text-align: center;
+}
