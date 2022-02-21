@@ -11,3 +11,5 @@ Future features to implement
 -Favourites tab and saving anime locally
 -A better layout for my content.
 
+Hosted here
+https://clementgyx-animedb.netlify.app/
